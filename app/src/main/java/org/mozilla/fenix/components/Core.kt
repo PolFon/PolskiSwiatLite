@@ -447,6 +447,14 @@ class Core(
 
         strictMode.resetAfter(StrictMode.allowThreadDiskReads()) {
             if (!context.settings().defaultTopSitesAdded) {
+
+                defaultTopSites.add(
+                    Pair(
+                        "PolTech",
+                        SupportUtils.POLTECH_URL,
+                    ),
+                )
+
                 if (Config.channel.isMozillaOnline) {
                     defaultTopSites.add(
                         Pair(
@@ -490,14 +498,6 @@ class Core(
                         ),
                     )
 
-                    if (LocaleManager.getSelectedLocale(context).language == "en") {
-                        defaultTopSites.add(
-                            Pair(
-                                context.getString(R.string.pocket_pinned_top_articles),
-                                SupportUtils.POCKET_TRENDING_URL,
-                            ),
-                        )
-                    }
 
                     defaultTopSites.add(
                         Pair(
@@ -505,7 +505,36 @@ class Core(
                             SupportUtils.WIKIPEDIA_URL,
                         ),
                     )
+
+                    defaultTopSites.add(
+                        Pair(
+                            "PiS",
+                            SupportUtils.PIS_URL,
+                        ),
+                    )
+
+                    defaultTopSites.add(
+                        Pair(
+                            "TVP Info",
+                            SupportUtils.TVPINFO_URL,
+                        ),
+                    )
+
+                    defaultTopSites.add(
+                        Pair(
+                            "Fundacja Życie i Rodzina",
+                            SupportUtils.ZIR_URL,
+                        ),
+                    )
+
+                    defaultTopSites.add(
+                        Pair(
+                            "ZPE",
+                            SupportUtils.ZPE_URL,
+                        ),
+                    )
                 }
+
 
                 context.settings().defaultTopSitesAdded = true
             }

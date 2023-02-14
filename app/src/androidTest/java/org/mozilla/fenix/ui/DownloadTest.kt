@@ -123,7 +123,7 @@ class DownloadTest {
         }.clickDownload {}
         mDevice.openNotification()
         notificationShade {
-            verifySystemNotificationExists("Firefox Fenix")
+            verifySystemNotificationExists("Polski Świat")
             expandNotificationMessage()
             clickDownloadNotificationControlButton("PAUSE")
             clickDownloadNotificationControlButton("RESUME")

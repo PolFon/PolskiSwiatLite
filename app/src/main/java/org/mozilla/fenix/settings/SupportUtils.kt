@@ -23,6 +23,11 @@ object SupportUtils {
     const val RATE_APP_URL = "market://details?id=" + BuildConfig.APPLICATION_ID
     const val POCKET_TRENDING_URL = "https://getpocket.com/fenix-top-articles"
     const val WIKIPEDIA_URL = "https://www.wikipedia.org/"
+    const val PIS_URL = "https://www.pis.org.pl/"
+    const val TVPINFO_URL = "https://www.tvp.info/"
+    const val ZIR_URL = "https://www.zycierodzina.pl/"
+    const val ZPE_URL = "https://zpe.gov.pl/"
+    const val POLTECH_URL = "https://poltech.net.pl/"
     const val FENIX_PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=${BuildConfig.APPLICATION_ID}"
     const val GOOGLE_URL = "https://www.google.com/"
     const val BAIDU_URL = "https://m.baidu.com/?from=1000969a"

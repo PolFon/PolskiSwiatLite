@@ -34,7 +34,6 @@ android {
     }
 
     defaultConfig {
-        applicationId "org.mozilla"
         minSdkVersion Config.minSdkVersion
         targetSdkVersion Config.targetSdkVersion
         versionCode 1
@@ -69,6 +68,7 @@ android {
         manifestPlaceholders = [
                 "deepLinkScheme": deepLinkSchemeValue
         ]
+        applicationId 'pl.net.poltech'
 
         // Build flag for "Mozilla Online" variants. See `Config.isMozillaOnline`.
         if (project.hasProperty("mozillaOnline") || gradle.hasProperty("localProperties.mozillaOnline")) {
@@ -133,7 +133,7 @@ android {
         }
         release releaseTemplate >> {
             buildConfigField "boolean", "USE_RELEASE_VERSIONING", "true"
-            applicationIdSuffix ".firefox"
+            applicationIdSuffix ".polskiswiat_lite"
             def deepLinkSchemeValue = "fenix"
             buildConfigField "String", "DEEP_LINK_SCHEME", "\"$deepLinkSchemeValue\""
             manifestPlaceholders = [

@@ -72,7 +72,7 @@ def remove(filename):
 def convert_channel_to_id(product, channel):
     if product == PROD_FENIX:
         mapping = {
-            'release': 'org.mozilla.firefox',
+            'release': 'pl.net.poltech.polskiswiat_lite',
             'beta': 'org.mozilla.firefox_beta',
             'nightly': 'org.mozilla.fenix',
             'debug': 'org.mozilla.fenix.debug'

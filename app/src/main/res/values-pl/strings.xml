@@ -55,7 +55,7 @@
     <string name="recently_saved_menu_item_remove">Usuń</string>
 
     <!-- About content. The first parameter is the name of the application. (For example: Fenix) -->
-    <string name="about_content">%1$s jest tworzony przez Mozillę.</string>
+    <string name="about_content">%1$s jest tworzony przez PolTech.</string>
 
     <!-- Private Browsing -->
     <!-- Explanation for private browsing displayed to users on home view when they first enable private mode
@@ -1348,9 +1348,9 @@
 
     <!-- Onboarding -->
     <!-- Text for onboarding welcome header. -->
-    <string name="onboarding_header_2">Witamy w lepszym Internecie</string>
+    <string name="onboarding_header_2">Witamy w Polskim Świecie</string>
     <!-- Text for the onboarding welcome message. -->
-    <string name="onboarding_message">Przeglądarka tworzona dla ludzi, nie dla zysku.</string>
+    <string name="onboarding_message">Najbardziej patriotyczna przeglądarka.</string>
     <!-- Text for the Firefox account onboarding sign in card header. -->
     <string name="onboarding_account_sign_in_header">Kontynuuj przeglądanie</string>
     <!-- Text for the button to learn more about signing in to your Firefox account. -->
